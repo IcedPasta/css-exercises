@@ -10,22 +10,48 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.plant-information {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
 }
 
 .barberry-elements {
-
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 200px;
 }
 
 .chilli-elements {
-
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 200px;
 }
 
 .pepper-elements {
-
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 200px;
 }
 
 .saffron-elements {
-  
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 200px;
+}
+
+.text {
+  display: flex;
+  text-align: center;
 }
 
 /* do not edit this footer */
